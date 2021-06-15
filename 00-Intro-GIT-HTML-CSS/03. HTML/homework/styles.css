@@ -1,12 +1,12 @@
 body {
     color: white;
-    display: flexbox;
+    display: flex;
+    flex-direction: column; /* si esto no funciona el flex */
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 h1 {
-    color: maroon;
+    color: yellowgreen;
 }
 img {
     max-width: 400px;
@@ -22,8 +22,4 @@ img {
 #spanId {
     font-size: 18px;
     margin: 50px;
-}
-div {
-    margin-left: auto;
-    margin-right: auto;
 }
