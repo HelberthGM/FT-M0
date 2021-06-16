@@ -1,0 +1,14 @@
+Explicaciones:
+
+- Variables: Una Variable es como una caja donde se pueden guardar datos,  valores o funciones.
+- Strings: Son cadenas de texto, se define con " " dentro de las comillas va el valor de string,
+           por lo general son letras, aunque tambien acepta numeros y hay que teneer en cuenta que los numeros 
+           los lee como texto y no como un numero.
+- Funciones (argumentos,return): Una funcion es parceida a una variable solo que esta realiza una accion,
+                                 que se define en los argumentos, los argumentos son las partes del codigo que
+                                 definen la accion o acciones que realiza, la segunda parte de la funcion es
+                                 el return esto es lo que  regresa la funcion despues de ejecutar los  argumentos.
+- Declaraciones if: El if es una condicion de si-entonces, al usarla se define una condicion y si se se cumple
+                    se ejecutan las condiciones que esten dentro de los argumentos.
+- Valores booleanos (true,false): Estos solo pueden tener dos valores true(verdadero) o false(falso), esots se
+                                  se usan de distintas partes del codigo, para evaluar si se cumple una condicion. 
