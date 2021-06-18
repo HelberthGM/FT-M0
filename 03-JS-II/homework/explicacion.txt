@@ -1,0 +1,13 @@
+Explicaciones:
+
+- For : Es un ciclo que se repite un numero determinado de veces, realizando una accion cada vez 
+        que se repite, esto lo hace sobre objetos, matrices, arreys incluso strings.
+
+- && : Este simbolo se usa en condiciones como una y, es decir se escriben dos condiciones separadas
+       por && y esto representa que si se cumplen ambas condiciones se ejecuta la acción.   
+
+- || : Este simbolo tambien se usa en condiciones pero se usa como una o, es decir si se cumple una de
+       las condiciones se ejecuta la accion.
+
+- ! : Es simbolo al igual que los dos anteriores se usa para comparar valores, en este caso compara si
+      si un valor es diferente a otro y si lo es se ejecuta el codigo que este dentro de la condicion.
