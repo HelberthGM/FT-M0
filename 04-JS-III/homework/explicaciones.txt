@@ -1,0 +1,4 @@
+Explicaciones:
+
+- Arrays: Son como listas, que se definen con [] y a cada elemento se guarda, serparado por comas,
+          los Arrays puedden tener Arrays dentro de si mismos, estos se conocen como Arrays anidados.
