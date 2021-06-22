@@ -1,0 +1,21 @@
+Explicaciones:
+
+- Objetos: Son paracidos a los arrays, solo que estos permiten incluir mas tipos de datos como funciones
+          este tipo de datos se escribe de modo key: value, estos objetos se pueden ver como objetos de
+          la vida real, es decir el key es similar a una caracteristica y es value el valor, por ejemplo,
+          color(key): rojo(value).
+
+- Propiedades: es el key:value de un objeto, son los valores que incluye el objeto.
+
+- Método: es la función que realiza una propiedad de un objeto.
+
+- Bucle for...in: Es un bucle que itera valor por valor en un objeto, es como un bucle for que itera
+                 en cada propiedad del objeto.
+
+- Notación de puntos vs Notación de corchetes: la Notación de puntos, esta se usa para acceder a una 
+                                              propiedad de un objeto, por medio del nombre, esta es la 
+                                              notacion mas común,
+                                              La notacion de corchetes, permite por llamarlo de alguna manera 
+                                              expresar mas cosas sobre la propiedad del objeto, ya que al tomarlo
+                                              en los corchetes javascript lo puede tomar como un string y revisarlo 
+                                              en el objeto.
