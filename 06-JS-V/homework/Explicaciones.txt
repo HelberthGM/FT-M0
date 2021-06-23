@@ -1,0 +1,9 @@
+Explicaciones:
+
+- Prototype: Son los metodos que incluye un objeto, en algunos ya vienen incluidos en Javascript
+            debido a que en Javascript todo es un objeto, esto se puede ver usando Objeto.__proto__
+            y tambien se pueden agregar nuevos metodos usando Objeto.Prototype.nombreDelMetodo
+
+- Constructors (de clases): Estos se usan para definir los metodos de una clase, estos metodos
+                            son con los que inician los objetos que sean creados a partir de 
+                            esta clase. 
