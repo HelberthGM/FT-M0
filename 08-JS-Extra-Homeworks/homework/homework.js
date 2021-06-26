@@ -27,7 +27,7 @@ function numberOfCharacters(string) {
     }
     numCaracteres[string[i]] = 1;
   }
-  return numCaracteres;
+  return numCaracteres; // copiado en parte del homework :c
 }
 
 
@@ -93,7 +93,16 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
-  
+  for (let i = 0; i< arr.length; i++) {
+    var itera = arr[i];
+    var anterior = i - 1;
+    while (anterior >= 0 && itera.length < arr[anterior].length) {
+      arr[anterior+1] = arr[anterior]
+      anterior--;
+    }
+    arr[anterior+1] = itera;
+    }
+  return arr; // copiado de las soluciones :c
 }
 
 
@@ -103,6 +112,15 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Si no tienen elementos en común, retornar un arreglo vacío.
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí  
+  var union = []; 
+  for (let i = 0; i < arreglo1.length; i++) {
+    for (let j = 0; j < arreglo2.length; j++) {
+      if (arreglo1[i] === arreglo2[j] ) {
+        union.push(arreglo1[i])
+      }
+    }
+  }
+  return union; // copiado de las soluciones :c
 }
 
 
